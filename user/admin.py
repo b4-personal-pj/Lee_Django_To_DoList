@@ -30,7 +30,7 @@ class UserCreationForm(forms.ModelForm):
         if commit:
             user.save()
         return user
-#gfodff
+
 
 class UserChangeForm(forms.ModelForm):
     password = ReadOnlyPasswordHashField()
@@ -63,3 +63,8 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(User, UserAdmin)
 admin.site.unregister(Group)
+
+
+
+
+#djalshdlkasdklasjd
