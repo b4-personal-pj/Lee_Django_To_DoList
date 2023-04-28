@@ -30,7 +30,7 @@ class UserCreationForm(forms.ModelForm):
         if commit:
             user.save()
         return user
-#깃모지 어렵다.........
+
 
 class UserChangeForm(forms.ModelForm):
     password = ReadOnlyPasswordHashField()
